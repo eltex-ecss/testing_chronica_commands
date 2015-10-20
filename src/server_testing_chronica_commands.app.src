@@ -1,0 +1,16 @@
+{application, server_testing_chronica_commands, [
+    {description, "Server designed for testing Chronica"},
+    {id,"server_testing_chronica_commands"},
+    {modules, []},
+    {registered,[]},
+    {included_applications,[]},
+    {applications,
+        [
+            kernel,
+            stdlib,
+            chronica
+        ]
+    },
+    {mod, {server_testing_chronica_commands_app,[]}},
+    {vsn, "1.0"}
+]}.
